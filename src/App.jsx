@@ -33,7 +33,7 @@ function App() {
 
       <form onSubmit={handleSubmit} className='fixed bottom-0 w-full flex p-4 sm:relative justify-center'>
         <input type="text" placeholder='Cidade' value={city} className='p-3 rounded-lg outline-none w-full flex-1 sm:max-w-[200px]' onChange={(e) => handleChange(e)} />
-        <button type='submit' className='text-black bg-violet-800 p-3  rounded-lg ml-3 font-bold text-white'> Pesquisar</button>
+        <button type='submit' className='text-black bg-violet-800 p-3  rounded-lg ml-3 font-bold text-white'> Search</button>
       </form>
         <Card city={city} dados={dados}/>
     </div>
